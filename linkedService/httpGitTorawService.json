@@ -1,0 +1,13 @@
+{
+	"name": "httpGitTorawService",
+	"properties": {
+		"description": "service for root connection of Product data from GitHub",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
