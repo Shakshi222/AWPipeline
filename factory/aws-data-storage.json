@@ -1,0 +1,9 @@
+{
+	"name": "aws-data-storage",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "21768437-e9a3-4797-8cf4-35c38547ac71",
+		"tenantId": "77f23e09-38dc-4507-9b39-3dff3cd0130b"
+	}
+}
