@@ -1,0 +1,13 @@
+{
+	"name": "StorageRawDataLake",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "The linked service is to post the raw data in the data storage lake ",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://awsstoragedata.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDY3QTEyNUY5LTI3Q0YtNDJGMC04NEQ2LTc1RjQ3MTBGRDBDMV8zNGRkNjU1My03NGMxLTQyOTUtYTFmYy05YWM3ZmQyZTBlYTMiDQp9"
+		}
+	}
+}
