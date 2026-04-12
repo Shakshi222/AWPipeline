@@ -1,0 +1,22 @@
+{
+	"name": "ds_ProductData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "httpGitTorawService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Shakshi222/AWPipeline/refs/heads/main/Data/AdventureWorks_Products.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
