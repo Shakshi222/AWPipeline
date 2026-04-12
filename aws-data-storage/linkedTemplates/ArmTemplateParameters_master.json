@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "aws-data-storage"
+		},
+		"StorageRawDataLake_accountKey": {
+			"value": ""
+		},
+		"storageRawdata_connectionString": {
+			"value": ""
+		},
+		"StorageRawDataLake_properties_typeProperties_url": {
+			"value": "https://awsstoragedata.dfs.core.windows.net/"
+		},
+		"httpGitTorawService_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
